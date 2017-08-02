@@ -1,4 +1,5 @@
 <?php
+require_once ("ITransformer.php");
 
 class SuperTransformer implements ICarTransformer, IPlaneTransformer, IShipTransformer {
     public function toCar() {
